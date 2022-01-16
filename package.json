@@ -1,0 +1,29 @@
+{
+  "name": "schemwrap",
+  "version": "1.0.0",
+  "description": "A js wrapper for the SchemHub API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Boricraft-Developmont/SchemWrap.git"
+  },
+  "keywords": [
+    "API",
+    "wrapper",
+    "api",
+    "SchemHub",
+    "schematics"
+  ],
+  "author": "Boricraft-Development",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Boricraft-Developmont/SchemWrap/issues"
+  },
+  "homepage": "https://github.com/Boricraft-Developmont/SchemWrap#readme",
+  "dependencies": {
+    "axios": "^0.24.0"
+  }
+}
