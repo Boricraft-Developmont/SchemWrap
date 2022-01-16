@@ -33,3 +33,11 @@ exports.createPost = async function(apikey, id, title, description, category, im
     return result;
 
 }
+
+exports.searchPosts = async function(search) {
+    result = await axios.get('https://borisjeletich.nl/v1/api/post/search.php?search=' + search)
+        .then((response) => {
+            return response.data;
+        });
+    return result;
+}

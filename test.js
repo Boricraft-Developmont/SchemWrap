@@ -16,6 +16,9 @@ async function main() {
     result = await schemapi.createPost('your-api-key', id , 'test', 'test', 'test', 'test', '123');
     console.log(result);
 
+    result = await schemapi.searchPosts('sus');
+    console.log(result);
+
 }
 
 main();
