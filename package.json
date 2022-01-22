@@ -1,6 +1,6 @@
 {
   "name": "schemwrap",
-  "version": "1.1.5",
+  "version": "1.2.0",
   "description": "A js wrapper for the SchemHub API",
   "main": "index.js",
   "scripts": {
